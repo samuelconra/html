@@ -1,0 +1,34 @@
+p {
+    text-align: center;
+    font-size: 25px;
+    
+}
+img{
+    display: block;
+    margin: 0 auto;
+}
+h1 {
+    text-align: center;
+    font-size: 50px;
+    color: #364652;
+    border: 2px solid #364652;
+    background-color: beige;
+}
+#titulo{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+#inicio
+{
+    font-size: 50px;
+    color: beige;
+    background-color: #364652;
+}
+.tipoDeLetra{
+    font-family: 'Times New Roman', Times, serif;
+}
+.sombreado{
+    text-shadow: 2px 9px 8px #364652;
+}
+body{
+    background-color: #F2F2F2;
+}

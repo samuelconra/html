@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica 3</title>
+<!--AGREGAR ESTILOS-->
+    <style>
+        table{
+            width: 100%;
+        }
+        td{
+            border: 2px solid rgb(0, 0, 79);
+            padding: 25px;
+            background-color: rgba(248, 248, 233, 0.482);
+        }
+        .Titulo{
+            text-align: center;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+<!--CREAR TABLAS POR RENGLONES Y COLUMNAS-->
+    <table weidth = "100%">
+        <tr>
+            <td class = "Titulo" colspan="2">CATALOGO DE NOMBRES</td>
+        </tr>
+
+        <tr>
+            <td class = "Titulo" width = "50%">Nombre</td>
+            <td class = "Titulo" width = "50%">Apellido</td>
+        </tr>
+
+        <tr>
+            <td>Lionel</td>
+            <td>Messi</td>
+        </tr>
+
+        <tr>
+            <td>Diego</td>
+            <td>Gómez</td>
+        </tr>
+
+        <tr>
+            <td>Cristiano</td>
+            <td>Ronaldo</td>
+        </tr>
+    </table>
+
+<!--HACER LISTAS ORDENADAS Y DESORDENAS (AGREGAR ESTILOS)-->
+    <p>Línea Horizontal</p>
+    <hr>
+    <ul>
+        <li>JS</li>
+        <li>Html</li>
+        <li>CSS</li>
+    </ul>
+
+    <ol>
+        <li>Café</li>
+        <li>Chilaquiles</li>
+        <li>Huevo</li>
+    </ol>
+
+    <ul style = "list-style-type: square;">
+        <li>Java</li>
+        <li>Python</li>
+        <li>C#</li>
+    </ul>
+
+    <ul type = "i">
+        <li>Java</li>
+        <li>Python</li>
+        <li>C#</li>
+    </ul>
+
+    <ul style = "color: rgb(0, 13, 95);">
+        <li>Café</li>
+        <li>Té
+            <ul>
+                <li style="color: blueviolet;">Té negro</li>
+                <li>Té verde</li>
+            </ul>
+        </li>
+        <li>Leche evaporada</li>
+    </ul>
+
+<!--CLASIFICAR ELEMENTOS POR CLASES-->
+    <style>
+        .mamiferos{
+            font-size: 20px;
+        }
+        .aves{
+            font-size: 8px;
+        }
+        .degranja{
+            background-color: blanchedalmond;
+        }
+        #reyDeLaSelva{
+            background-color: rgb(176, 255, 176);
+        }
+        p{
+            border: 1px solid rgb(0, 0, 109);
+        }
+    </style>
+    
+    <p class = "mamiferos" id="reyDeLaSelva">León</p>
+    <p class = "mamiferos">Elefante</p>
+    <p class = "mamiferos degranja">Vaca</p>
+    <p class = "aves">Aguila</p>
+    <p class = "aves">Búho</p>
+    <p class = "aves degranja">Gallina</p>
+
+    <video width="500px" height="300px" controls>
+        <source src = "earth.mp4" type="video/mp4">
+    </video>
+    <iframe src = "https://www.lasallebajio.edu.mx/" frameborder = "0" frameborder = "1" width = "100%" >
+    </iframe>
+
+    <header>
+        <h2>CIUDADES</h2>
+    </header>
+    <section>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">Monterrey</a>
+                </li>
+                <li>
+                    <a href="#">Guadalajara</a>
+                </li>
+                <li>
+                    <a href="https://goo.gl/maps/gTZGgNHbATcgfchV7">Querétaro</a>
+                </li>
+            </ul>
+        </nav>
+    </section>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d119501.00622181022!2d-100.48025763280087!3d20.612283522172987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d35b8fdc5b9255%3A0x97b094aa561b832f!2sSantiago%20de%20Quer%C3%A9taro%2C%20Qro.!5e0!3m2!1sen!2smx!4v1677015027385!5m2!1sen!2smx" 
+    width="100%" height="600" style="border:0;" 
+    allowfullscreen="" loading="lazy" 
+    referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+
+    <audio src="ejemplo.mp3" controls></audio>
+
+</body>
+</html>

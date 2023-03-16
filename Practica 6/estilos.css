@@ -1,0 +1,33 @@
+html{
+    font-family:'Courier New', Courier, monospace;
+}
+.seleccionado{
+    color: rgb(2, 24, 112);
+    font-size: 30px;
+    text-align: center;
+    width: 50%;
+    opacity: 0.5;
+}
+.titulo{
+    font-size: 100px;
+}
+#Elemento3{
+    color: blueviolet;
+}
+div + p{
+    background-color: beige;
+    border: 3px solid rgb(2, 2, 78);
+    margin-bottom: 300px;
+}
+a:link{
+    color: brown;
+}
+a:visited{
+    color: aqua;
+}
+a:hover{
+    background-color: beige;
+}
+a:active{
+    color: cadetblue;
+}
