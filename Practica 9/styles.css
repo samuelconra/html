@@ -1,0 +1,94 @@
+body {
+    animation: colores 10s infinite;
+}
+
+@keyframes colores {
+    0% {background: #717C89;}
+    25% {background: #8AA2A9;}
+    50% {background: #90BAAD;}
+    75% {background: #A1E5AB;}
+    100% {background: #ADF6B1;}
+}
+
+h1 {
+    text-align: center;
+    padding-top: 250px;
+}
+h2 {
+    text-align: center;
+}
+
+.cuadroBlanco {
+    background-color: white;
+    position: absolute;
+    animation:  mueveCuadro 10s infinite;
+}
+
+#cuadroBlanco1 {
+    width: 100px;
+    height: 100px;
+    left: 50px;
+}
+#cuadroBlanco2 {
+    width: 100px;
+    height: 100px;
+    left: 200px;
+}
+#cuadroVerde {
+    width: 100px;
+    height: 100px;
+    background: #717C89;
+    position: absolute;
+    left: 350px;
+    animation: mueveRojo 10s infinite;
+}
+#cuadroMultiColor {
+    width: 100px;
+    height: 100px;
+    background: #95b2d6;
+    position: relative;
+    left: 800px;
+    animation: mueveMulti 10s infinite;
+}
+#circulo {
+    width: 100px;
+    height: 100px;
+    left: 1300px;
+    background: rgb(22, 47, 22);
+    position: relative;
+    border-radius: 100%;
+    animation: crece 10s infinite;
+}
+
+@keyframes mueveCuadro {
+    from {top: 10px;}
+    to {top: 650px;}
+}
+@keyframes mueveRojo {
+    0% {top: 0px; width: 200px; background: #8AA2A9; border: 10px ; border-color: #90BAAD;}
+    25% {top: 200px; width: 300px; background: #90BAAD; border-color: #A1E5AB;}
+    50% {top: 50px; background: #A1E5AB;}
+    100% {top: 100px; background: #ADF6B1;}
+    100% {top: 50px; width: 100px;}
+}
+@keyframes mueveMulti {
+    0% {top: 0px; left: 800px; background: rgb(37, 189, 37);}
+    25% {top: 0px; left: 900px; background: rgb(57, 106, 57);}
+    50% {top: 0px; left: 1000px; background: rgb(16, 53, 16);}
+    75% {top: 0px; left: 1100px; background: rgb(161, 255, 161);}
+    100% {top: 0px; left: 1200px; background: rgb(13, 205, 13);}
+}
+@keyframes crece {
+    0% {top: 0px; width: 100px; height: 100px;}
+    50% {top: 200px; width: 200px; height: 200px;}
+    100% {top: 300px; width: 300px; height: 300px;}
+}
+
+.gradiente{
+    background: rgb(113,124,137);
+    background: linear-gradient(90deg, rgba(113,124,137,1) 0%, rgba(173,246,177,1) 100%);
+    width: 100px;
+    height: 100px;
+    padding: 100px;
+    border-radius: 50px;
+}
