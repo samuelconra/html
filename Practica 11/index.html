@@ -1,13 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Practica 11</title>
+    <title>Media Query</title>
+    <style>
+        body {
+            background-color: beige;
+            color: black;
+        }
+
+        @media screen and (max-width: 992px){
+            body {
+                background-color: rgb(0, 0, 51);
+                color: white;
+            }
+            h1 {
+                font-size: 16px;
+            }
+        }
+
+        @media screen and (max-width: 600px){
+            body{
+                background-color: red;
+                color: black;
+            }
+        }
+    </style>
 </head>
 <body>
-    <h1>Practica 11</h1>
-    <h2>subtitulo</h2>
+    <h1>
+        Cambia el tamaño de la ventana del navegador y 
+        verás el cambio en el navegador.
+    </h1>
 </body>
 </html>
