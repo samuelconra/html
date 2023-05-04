@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica 13.5</title>
+    <style>
+        .galeria{
+            display: flex;
+            height: 20rem;
+            gap: 1rem
+        }
+        .galeria > div{
+            flex: 1;
+            border-radius: 1rem;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: auto 100%;
+            transition: all .8s cubic-bezier(.25, .4, .45, 1.4);
+        }
+        .galeria > div:hover{
+            flex: 3;
+        }
+        .imagenes{
+            background-image: url("https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80");
+        }
+        .imagenes2{
+            background-image: url("https://plus.unsplash.com/premium_photo-1679582748726-c74fcb4aa95d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80");
+        }
+        .imagenes3{
+            background-image: url("https://images.unsplash.com/photo-1513026705753-bc3fffca8bf4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80");
+        }
+        .imagenes4{
+            background-image: url("https://images.unsplash.com/photo-1488747279002-c8523379faaa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80");
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="galeria">
+        <div class="imagenes"></div>
+        <div class="imagenes2"></div>
+        <div class="imagenes3"></div>
+        <div class="imagenes4"></div>
+        <div class="imagenes"></div>
+    </div>
+</body>
+</html>
