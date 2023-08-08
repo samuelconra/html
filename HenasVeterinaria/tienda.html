@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda | Veterinaria HENAS</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/9c757c2dd1.js" crossorigin="anonymous"></script>
+
+    <!-- links -->
+    <link rel="stylesheet" href="CSS/tiendaStyle.css ">
+    <link rel="icon" type="image/png" href="images/logoMini.png">
+    <script defer src="JS/app.js"></script>
+
+</head>
+<body>
+    <section id="navTop">
+        <div id="redes">
+          <a href="https://twitter.com"><i class="fa-brands fa-twitter" style="color: #1e3050; margin-right: 0.6rem;"></i></a>
+          <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook" style="color: #1e3050; margin-right: 0.6rem;"></i></a>
+          <a href="https://www.instagram.com"><i class="fa-brands fa-instagram" style="color: #1e3050; margin-right: 0.6rem;"></i></a>
+          <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin" style="color: #1e3050;"></i></a>
+        </div>
+        <p id="contacto"><i class="fa-solid fa-envelope" style="margin-right: 10px;"></i>contacto@correo.com</p>
+        <p id="telefono"><i class="fa-solid fa-phone" style="margin-right: 10px;"></i>477-403-2170</p>
+      </section>
+    
+      <!-- nav y logo -->
+      <nav class="navbar navbar-expand-lg" id="pagNav">
+        <div class="container-fluid">
+          <!-- <a href="#navTop" id="logo" style="margin-right: 0.9rem; color: #1e3050;">HENAS <i class="fa-solid fa-bone"></i></a> -->
+          <a href="index.html" id="logo"><img src="images/logoHENAS.png" alt="logoHENAS" style="width: 120px;"></a>
+          <button id ="btnNav"class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="color: #1e3050;">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav container-fluid" style="text-align: right;" id="optNav">
+              <li class="nav-item" style="float: right;">
+                <a id="Registro"class="nav-link" href="">Registro</a>
+              </li>
+              <li class="nav-item" style="float: right;">
+                <a class="nav-link" href="index.html#Nosotros" style="margin-right: 1.5rem;">Nosotros</a>
+              </li>
+              <li class="nav-item" style="float: right;">
+                <a class="nav-link" href="tienda.html" style="margin-right: 1.5rem;">Tienda</a>
+              </li>
+              <li class="nav-item dropdown" style="float: right;">
+                <a class="nav-link dropdown-toggle" href="servicios.html" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="margin-right: 1.5rem;">
+                  Servicios
+                </a>
+                <ul class="dropdown-menu my-2" style="background-color: #CADEF1; margin-top: 10px;">
+                  <li><a class="dropdown-item serviciosLinks" href="aseo.html">Aseo</a></li>
+                  <li><a class="dropdown-item serviciosLinks" href="consulta.html">Consulta</a></li>
+                  <li><a class="dropdown-item serviciosLinks" href="hotel.html">Hotel</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <header>
+        <h1>TIENDA</h1>
+    </header>
+
+    <div class="container" id="productos">
+        <div class="row justify-content-around">
+            <div class="col-sm-6 col-md-4 co-12">
+                <article>
+                    <h2 class="hidden">Croquetas</h2>
+                    <p class="hidden">Las mejores croquetas que se pueden tener</p>
+                    <img class="hidden" style="width: 100%;"src="images/croquetas.jpg" alt="blogImage">
+                    <div class="row justify-content-center" style="display: flex; margin-top: 1rem; align-items: center;">
+                      <div class="col-md-3 col-sm-4 col-6">
+                          <p class="hidden" style="margin-top: 1rem; font-weight:500;">$200</p>
+                      </div>
+                      <div class="col-md-9 col-sm-8 col-6 text-end">
+                          <button class="hidden btnCompra">Comprar</button>
+                      </div>
+                  </div>
+                </article>
+            </div>
+            <div class="col-sm-6 col-md-4 co-12">
+                <article>
+                    <h2 class="hidden">Juguetes</h2>
+                    <p class="hidden">Las mejores croquetas que se pueden tener</p>
+                    <img class="hidden" style="width: 100%;"src="images/juguete.jpg" alt="blogImage2">
+                    <div class="row justify-content-center" style="display: flex; margin-top: 1rem; align-items: center;">
+                        <div class="col-md-3 col-sm-4 col-6">
+                            <p class="hidden" style="margin-top: 1rem; font-weight:500;">$80</p>
+                        </div>
+                        <div class="col-md-9 col-sm-8 col-6 text-end">
+                            <button class="hidden btnCompra">Comprar</button>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <div class="col-sm-6 col-md-4 co-12">
+                <article>
+                    <h2 class="hidden">Correas</h2>
+                    <p class="hidden">Las mejores croquetas que se pueden tener</p>
+                    <img class="hidden" style="width: 100%;" src="images/correa.jpg" alt="blogImage3">
+                    <div class="row justify-content-center" style="display: flex; margin-top: 1rem; align-items: center;">
+                      <div class="col-md-3 col-sm-4 col-6">
+                          <p class="hidden" style="margin-top: 1rem; font-weight:500;">$50</p>
+                      </div>
+                      <div class="col-md-9 col-sm-8 col-6 text-end">
+                          <button class="hidden btnCompra">Comprar</button>
+                      </div>
+                  </div>
+                </article>
+            </div>
+        </div>
+    </div>
+
+<!-- PIE DE PAGINA -->
+<div class="container-fluid" id="piePagina">
+  <div class="row justify-content-center">
+    <div class="col-md-5 col-sm-11 col-11 " style="padding-right: 3rem;">
+      <h1>
+        HENAS
+      </h1>
+      <p>
+        Si deseas programar una cita, obtener mas informacion de nuestros servicios 
+        o simplemente conversar sobre la salud de tu mascota, no dudes en ponerte en 
+        contacto con nosotros. Estamos aqui para ayudarte en todo momento        
+      </p>
+    </div>
+    <div class="col-md-2 col-sm-3 col-3">
+      <div class="row justify-content-center">
+        <div class="col-12 subtituloPie">
+          <h5>Links</h5>
+        </div>
+      </div>
+      <div class="row justify-content-center" style="padding-top: 1rem;">
+        <div class="col-12">
+          <a class="linkPie" href="index.html">Inicio</a>
+        </div>
+      </div>
+      <div class="row justify-content-center" style="padding-top: 0.4rem;">
+        <div class="col-12">
+          <a class="linkPie" href="index.html#nosotros">Nosotros</a>
+        </div>
+      </div>
+      <div class="row justify-content-center" style="padding-top: 0.4rem;">
+        <div class="col-12">
+          <a class="linkPie" href="#navTop" style="padding-top: 0.4rem;">Tienda</a>
+        </div>
+      </div>
+      <div class="row justify-content-center" style="padding-top: 0.4rem;">
+        <div class="col-12">
+          <a class="linkPie" href="registro.html">Registro</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-2 col-sm-3 col-3">
+      <div class="row justify-content-center">
+        <div class="col-12 subtituloPie">
+          <h5>Servicios</h5>
+        </div>
+      </div>
+      <div class="row justify-content-center" style="padding-top: 1rem;">
+        <div class="col-12">
+          <a class="linkPie" href="aseo.html">Aseo</a>
+        </div>
+      </div>
+      <div class="row justify-content-center" style="padding-top: 0.4rem;">
+        <div class="col-12">
+          <a class="linkPie" href="consulta.html">Consulta</a>
+        </div>
+      </div>
+      <div class="row justify-content-center" style="padding-top: 0.4rem;">
+        <div class="col-12">
+          <a class="linkPie" href="hotel.html" style="padding-top: 0.4rem;">Hotel</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-2 col-sm-3 col-5">
+      <div class="row justify-content-center">
+        <div class="col-12 subtituloPie">
+          <h5>Contacto</h5>
+        </div>
+      </div>
+      <div class="row justify-content-center" style="padding-top: 1rem;">
+        <div class="col-12">
+          <a class="linkPie" href="#"><span style="font-weight: bold;">Teléfono:</span> 477-403-2170</a>
+        </div>
+      </div>
+      <div class="row justify-content-center" style="padding-top: 0.4rem;">
+        <div class="col-12">
+          <a class="linkPie" href="#"><span style="font-weight: bold;">Email:</span> correo@correo.com</a>
+        </div>
+      </div>
+      <div class="row justify-content-center" style="padding-top: 0.4rem;">
+        <div class="col-12">
+          <a class="linkPie" href="#" style="padding-top: 0.4rem;">Blvd. Boulevard</a>
+        </div>
+      </div>
+      <div class="row justify-content-center" style="padding-top: 0.4rem;">
+        <div class="col-12">
+          <a class="linkPie" href="#">Av. Avenida</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row justify-content-center" style="margin-top: 4.5rem;">
+    <div class="col-12 text-center">
+      <p>© Copyright <span style="font-weight: bold;">HENAS.</span> All Rights Reserved</p>
+    </div>
+  </div>
+  <div class="row justify-content-center" style="margin-top: -1rem;">
+    <div class="col-12 text-center">
+      <p>Designed by HENAS team</p>
+    </div>  
+  </div>
+</div>
+
+</body>
+</html>

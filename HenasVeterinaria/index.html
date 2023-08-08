@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veterinaria Henas</title>
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/9c757c2dd1.js" crossorigin="anonymous"></script>
+
+    <!-- links -->
+    <link rel="stylesheet" href="CSS/indexStyle.css ">
+    <link rel="icon" type="image/png" href="images/logoMini.png">
+    <script defer src="JS/app.js"></script>
+</head>
+
+<body>
+  <section id="navTop">
+    <div id="redes">
+      <a href="https://twitter.com"><i class="fa-brands fa-twitter" style="color: #1e3050; margin-right: 0.6rem;"></i></a>
+      <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook" style="color: #1e3050; margin-right: 0.6rem;"></i></a>
+      <a href="https://www.instagram.com"><i class="fa-brands fa-instagram" style="color: #1e3050; margin-right: 0.6rem;"></i></a>
+      <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin" style="color: #1e3050;"></i></a>
+    </div>
+    <p id="contacto"><i class="fa-solid fa-envelope" style="margin-right: 10px;"></i>contacto@correo.com</p>
+    <p id="telefono"><i class="fa-solid fa-phone" style="margin-right: 10px;"></i>477-403-2170</p>
+  </section>
+
+  <!-- nav y logo -->
+  <nav class="navbar navbar-expand-lg" id="pagNav">
+    <div class="container-fluid">
+      <!-- <a href="#navTop" id="logo" style="margin-right: 0.9rem; color: #1e3050;">HENAS <i class="fa-solid fa-bone"></i></a> -->
+      <a href="#navTop" id="logo"><img src="images/logoHENAS.png" alt="logoHENAS" style="width: 120px;"></a>
+      <button id ="btnNav"class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="color: #1e3050;">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav container-fluid" style="text-align: right;" id="optNav">
+          <li class="nav-item" style="float: right;">
+            <a id="Registro"class="nav-link" href="registro.html">Registro</a>
+          </li>
+          <li class="nav-item" style="float: right;">
+            <a class="nav-link" href="#Nosotros" style="margin-right: 1.5rem;">Nosotros</a>
+          </li>
+          <li class="nav-item" style="float: right;">
+            <a class="nav-link" href="tienda.html" style="margin-right: 1.5rem;">Tienda</a>
+          </li>
+          <li class="nav-item dropdown" style="float: right;">
+            <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="margin-right: 1.5rem;">
+              Servicios
+            </a>
+            <ul class="dropdown-menu" style="background-color: #CADEF1; margin-top: 10px;">
+              <li><a class="dropdown-item serviciosLinks" href="aseo.html">Aseo</a></li>
+              <li><a class="dropdown-item serviciosLinks" href="consulta.html">Consulta</a></li>
+              <li><a class="dropdown-item serviciosLinks" href="hotel.html">Hotel</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid text-center" id="inicio">
+    <div class="row align-items-center">
+      <div class="col-5" style="margin-left: 2rem;">
+        <h2 class="hidden">BIENVENIDOS</h2>
+        <h4 class="hidden">AL MEJOR SERVICIO DE VETERINARIA</h4>
+      </div>
+      <div class="col-6">
+        <img class="hidden" src="images/logoGrande.png" alt="logoGrande" id="logoGrande">
+      </div>
+    </div>
+  </div >
+
+  <div class="container-fluid text-center" id="Nosotros" style="margin-top: 5rem; margin-bottom: 6rem">
+    <h1 class="hidden">Sobre Nosotros</h1>
+    <div class="row justify-content-center my-4" style="font-size: 1.5rem;">
+      <div class="col-8">
+        <p class="hidden">Somos un veterinaria comprometida a ofrecer los mejores servicios a tus mascotas.</p>
+        <p class="hidden">Contamos con los mejores empleados dedicados solo al bienestar de nuestras mascotas, además ofrecemos los mejores productos</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container my-5">
+    <div class="row justify-content-center">
+      <div class="col-12" style="padding-left: 1.6rem;">
+        <h3 class="hidden">Nuestras Mascotas</h3>
+      </div>
+    </div>
+    <div class="row justify-content-around my-3">
+      <div class="col-md-6 col-sm-12" style="margin-bottom: 1rem;">
+        <section class="container-fluid py3" id="imgPerros">
+          <div id="imagenes"id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/perroCarrousel1.jpeg" class="hidden" class="d-block" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/perroCarrousel2.jpeg" class="hidden" class="d-block" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/perroCarrousel3.jpeg" class="hidden" class="d-block" alt="...">
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="col-md-6 col-sm-11 col-11" style="padding-right: 1.6rem;">
+        <p class="hidden" id="mascotasTxt">En nuestra veterinaria nos especializamos en mantener a tus mascotas felices y saludables. Ofrecemos una gran variedad de servicios veterinarios para satisfacer las necesidades de su mascota. Desde servicios para el aseo hasta productos para la higiene y comodidad para garantizar el bienestar de su mascota</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- PIE DE PAGINA -->
+  <div class="container-fluid" id="piePagina">
+    <div class="row justify-content-center">
+      <div class="col-md-5 col-sm-11 col-11 " style="padding-right: 3rem;">
+        <h1>
+          HENAS
+        </h1>
+        <p>
+          Si deseas programar una cita, obtener mas informacion de nuestros servicios 
+          o simplemente conversar sobre la salud de tu mascota, no dudes en ponerte en 
+          contacto con nosotros. Estamos aqui para ayudarte en todo momento        
+        </p>
+      </div>
+      <div class="col-md-2 col-sm-3 col-3">
+        <div class="row justify-content-center">
+          <div class="col-12 subtituloPie">
+            <h5>Links</h5>
+          </div>
+        </div>
+        <div class="row justify-content-center" style="padding-top: 1rem;">
+          <div class="col-12">
+            <a class="linkPie" href="#navTop">Inicio</a>
+          </div>
+        </div>
+        <div class="row justify-content-center" style="padding-top: 0.4rem;">
+          <div class="col-12">
+            <a class="linkPie" href="#navTop">Nosotros</a>
+          </div>
+        </div>
+        <div class="row justify-content-center" style="padding-top: 0.4rem;">
+          <div class="col-12">
+            <a class="linkPie" href="#navTop" style="padding-top: 0.4rem;">Tienda</a>
+          </div>
+        </div>
+        <div class="row justify-content-center" style="padding-top: 0.4rem;">
+          <div class="col-12">
+            <a class="linkPie" href="#navTop">Registro</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2 col-sm-3 col-3">
+        <div class="row justify-content-center">
+          <div class="col-12 subtituloPie">
+            <h5>Servicios</h5>
+          </div>
+        </div>
+        <div class="row justify-content-center" style="padding-top: 1rem;">
+          <div class="col-12">
+            <a class="linkPie" href="aseo.html">Aseo</a>
+          </div>
+        </div>
+        <div class="row justify-content-center" style="padding-top: 0.4rem;">
+          <div class="col-12">
+            <a class="linkPie" href="consulta.html">Consulta</a>
+          </div>
+        </div>
+        <div class="row justify-content-center" style="padding-top: 0.4rem;">
+          <div class="col-12">
+            <a class="linkPie" href="hotel.html" style="padding-top: 0.4rem;">Hotel</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2 col-sm-3 col-5">
+        <div class="row justify-content-center">
+          <div class="col-12 subtituloPie">
+            <h5>Contacto</h5>
+          </div>
+        </div>
+        <div class="row justify-content-center" style="padding-top: 1rem;">
+          <div class="col-12">
+            <a class="linkPie" href="#navTop"><span style="font-weight: bold;">Teléfono:</span> 477-403-2170</a>
+          </div>
+        </div>
+        <div class="row justify-content-center" style="padding-top: 0.4rem;">
+          <div class="col-12">
+            <a class="linkPie" href="#navTop"><span style="font-weight: bold;">Email:</span> correo@correo.com</a>
+          </div>
+        </div>
+        <div class="row justify-content-center" style="padding-top: 0.4rem;">
+          <div class="col-12">
+            <a class="linkPie" href="#navTop" style="padding-top: 0.4rem;">Blvd. Boulevard</a>
+          </div>
+        </div>
+        <div class="row justify-content-center" style="padding-top: 0.4rem;">
+          <div class="col-12">
+            <a class="linkPie" href="#navTop">Av. Avenida</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-center" style="margin-top: 4.5rem;">
+      <div class="col-12 text-center">
+        <p>© Copyright <span style="font-weight: bold;">HENAS.</span> All Rights Reserved</p>
+      </div>
+    </div>
+    <div class="row justify-content-center" style="margin-top: -1rem;">
+      <div class="col-12 text-center">
+        <p>Designed by HENAS team</p>
+      </div>  
+    </div>
+  </div>
+
+</body>
+</html>

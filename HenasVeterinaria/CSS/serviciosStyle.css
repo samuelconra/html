@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+    border-collapse: collapse;
+}
+body{
+    font-family: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    color: #1e3050;
+    background-color: white;
+}
+i{
+    text-decoration: none;
+    font-style: normal;
+}
+.hidden{
+    opacity: 0;
+    filter: blur(5px);
+    transition: all 1.5s;
+}
+.show{
+    opacity: 1;
+    filter: blur(0);
+}
+
+/* REDES Y CONTACTO */
+#navTop{
+    background-color: #AFCEEC;
+    color: #1e3050;
+    text-decoration: none;
+    font-size: 0.8rem;
+    padding: 0.3rem;
+    /* font-weight: bold; */
+}
+#navTop p{
+    display: inline;
+}
+#contacto{
+    margin-left: 57px;
+}
+#telefono{
+    margin-left: 30px;
+}
+#redes{
+    font-style: normal;
+    font-size: 0.9rem;
+    color: #1e3050;
+    float: right;
+    margin-right: 57px;
+}
+
+/* navegacion principal */
+#pagNav{
+    background-color: #CADEF1;
+    font-size: 1.1.rem;
+    font-weight: 500;
+    display: flex;
+    align-content: end;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+
+    z-index: 1;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    /* box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1); */
+}
+#pagNav a{
+    color: #1e3050b2;
+    text-decoration: none;
+    transition: color 0.5s ease;
+}
+#pagNav div div a:hover{
+    color: #1e3050;
+    text-decoration: underline;
+}
+.serviciosLinks:hover{
+    text-decoration: none !important;
+    background-color: #afcdec62;
+}
+#optNav{
+    margin-right: 30px;
+    font-size: 1.1rem;
+}
+#logo{
+    font-size: 1.3rem;
+    margin-left: 47px;
+}
+#btnNav{
+    margin-right: 3rem;
+}
+
+/* Responsividad */
+@media screen and (max-width: 561px){
+    #logo{margin-left: 1rem;}
+    #btnNav{margin-right: 1rem;}
+    #telefono{margin-left: 45px;}
+    #contacto{margin-left: 10px;}
+    #redes{margin-right: 10px;}
+    #optNav li{margin-right: 0.1rem;}
+    #Registro{margin-right: 1.5rem;}
+    #optNav li{margin-right: -1.2rem !important;}
+    #Registro{margin-right: 1.4rem;}
+    #inicio h2{font-size: 1rem;}
+    #inicio h4{font-size: 1rem;}
+    #inicio {padding-bottom: 13rem !important;}
+    .subtituloPie{margin-top: 1rem;}
+}
+@media screen and (min-width: 992px){
+    #optNav{display: inline;}
+}
+@media screen and (max-width: 992px){
+    #optNav li{margin-right: 0.8rem;}
+    #Registro{margin-right: 1.5rem;}
+}
+
+/* REGISTRO */
+.inputRegistro{
+    border-radius: 0.3rem;
+    width: 60%;
+    opacity: 0.9;
+    transition: all 0.5s;
+}
+#btnRegistro{
+    width: 25%; 
+    border-radius: 10rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    opacity: 0.6;
+    transition: all 1s;
+}
+
+#btnRegistro:hover{
+    opacity: 1;
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.3);
+    color: white !important;
+    background-color: #1e3050 !important;
+}
+.inputRegistro:hover{
+    opacity: 1;
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
+}
+
+#Baño{
+    border: 2px;
+    border-color: brown;
+    border-style: solid;
+    border-radius: 0.2rem;
+}
+
+
+/* STYLE PIE DE PAGINA */
+#piePagina
+{
+    background-color: #CADEF1;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+#piePagina h1{
+    font-weight: bold;
+}
+.linkPie{
+    color: #6f6f6f;
+    text-decoration: none;
+}
+
+.bloque{
+    display: block;
+    background-color: #96bbe1;
+    width: 10rem;
+    height: 10rem;
+    position: absolute;
+    opacity: 0.2;
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 0.3rem;
+}
