@@ -1,0 +1,40 @@
+.tarjeta-partido{
+    border-radius: 0.8rem; 
+    background-color: rgba(34,31,32,0.8);
+    padding: 1rem;
+    padding-bottom: 2rem;
+    padding-top: 0;
+}
+.fecha-partido{
+    width: 50%; 
+    background-color:#f78da7; 
+    margin-left: auto; 
+    margin-right: auto;
+    padding: 0.5rem;
+}
+.info-partido{
+    width: auto;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+.nombre-equipo{
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+.marcador-partido{
+    color: black;
+    background-color: white;
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+    margin-left: 0.3rem;
+}
+
+.img-seasonPass{
+    width: 30%;
+}
+.img-seasonPass:hover{
+    width: 35%;
+}
+

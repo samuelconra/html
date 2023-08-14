@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Messi</title>
+
+     <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/9c757c2dd1.js" crossorigin="anonymous"></script>
+
+    <!-- links -->
+    <link rel="stylesheet" href="CSS/indexStyle.css ">
+    <link rel="icon" type="image/png" href="images/messiLogo.png">
+    <script defer src="JS/hide.js"></script>
+</head>
+<body>
+    <!-- NAVEGACION SUPERIOR -->
+    <div class="container-fluid topNav hidden">
+        <div class="p-3">
+            <a href="index.html"><img src="images/messiLogo.png" alt="logo" id="logo-nav"></a>
+            <a href="#SobreMessi" class="links-nav">Sobre él</a>
+            <a href="#mundial" class="links-nav">Mundial</a>
+            <a href="partidos.html" class="links-nav">Partidos</a>
+            <a href="https://www.themessistore.com" class="links-nav">Tienda</a>
+        </div>
+    </div>
+    
+    <!-- IMAGEN PRINCIPAL -->
+    <img src="images/messiMiami.webp" alt="Messi" style="width: 100%;" class="hidden">
+
+    <!-- SOBRE MESSI -->
+    <div class="container-fluid text-center" style="margin-top: 8rem; margin-bottom: 8rem" id="SobreMessi">
+        <h1 class="hidden" style="margin-top: 2rem;">Lionel Messi</h1>
+        <div class="container hidden" style="width: 10%; height: 2px; background-color: #f6b4cd;"></div>
+        <div class="row justify-content-center my-5" style="font-size: 1.5rem;">
+            <div class="col-8 hidden">
+              <p>Lionel Andrés Messi es un futbolista profesional argentino que juega y es capitán tanto del Inter de Miami, club de la Major League Soccer, como de la selección nacional de Argentina.</p>
+              <p>Messi es considerado para muchos como el mejor jugador de la historia del fútbol y del soccer.</p>
+              <p>A pesar de su <a href="https://messi.com/biografia/" target="_blank" style="color: #f6b4cd">infancia</a> difícil, Messi logró salir adelante y convertise en una leyenda.</p>
+            </div>
+          </div>
+    </div>
+
+    <!-- VIDEO DEL MUNDIAL -->
+    <div class="container-fluid text-center" id="video-messi">
+        <iframe width="60%" height="500" src="https://www.youtube.com/embed/GcLqTZ3Ko9c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    
+    <!-- MUNDIAL -->
+    <div class="container-fluid hidden" style="margin-top: 9rem; margin-bottom: 9rem;" id="mundial">
+        <div class="row justify-content-center">
+            <div class="col-md-9 col-sm-9 col-9">
+                <h1>
+                    <span style="background-color: #75AADB; padding: 0.5rem; border-radius: 0.8rem;">MUNDIAL</span> 
+                    <span style="background-color: #FCBF49; padding: 0.5rem; border-radius: 0.8rem;">DE</span>
+                    <span style="background-color: #75AADB; padding: 0.5rem; border-radius: 0.8rem;">QATAR</span>
+                </h1>
+            </div>
+            
+            <div class="col-md-5 col-sm-6 col-8" style="padding-top: 0.5rem;">
+                <h5 style="margin-top:auto; margin-bottom: auto">18 DE DICIEMBRE DEL 2022</h5>
+            </div>
+            <div class="col-md-4 col-sm-9 col-9 text-end">
+                <audio controls autoplay>
+                    <source src="audios/arrancarmelo - wos.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+            
+            <div class="col-md-5 col-sm-9 col-9" style="margin-top: 1rem;">
+                <p style="text-align: justify; font-size: 1rem">La épica victoria de Argentina en la Copa del Mundo fue impulsada 
+                    por la magia inigualable de Lionel Messi en el campo. Con destrezas que desafían la lógica y 
+                    una determinación palpable, Messi se convirtió en el arquitecto de momentos cruciales que 
+                    quedaron grabados en la memoria de todos los amantes del fútbol. Cada toque de balón era como 
+                    una pincelada maestra en un lienzo en blanco, su liderazgo indomable y visión estratégica 
+                    infundieron vida a cada jugada. El legado de Messi en esta hazaña quedará inscrito en la historia como 
+                    una oda a la pasión y al poder transformador del deporte.
+                </p>
+                <ul>
+                    <li>Dominante</li>
+                    <li>Líder</li>
+                </ul>
+            </div>
+            <div class="col-md-4 col-sm-9 col-9" style="margin-top: 1rem;">
+                <img src="images/mundial2022.jpeg" alt="mundial-image" style="width: 100%; border-radius: 0.8rem;">
+            </div>
+
+            <div class="col-6 text-center" style="padding: auto; margin-top: 2rem">
+                <table style="margin: auto; padding: 1rem;" id="tabla-mundial">
+                    <thead>
+                        <tr>
+                            <th>Etapa</th>
+                            <th>Oponente</th>
+                            <th>Marcador</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td class="elemento-oscuro">Grupo C</td>
+                            <td class="elemento-oscuro">Arabia Saudita</td>
+                            <td class="elemento-oscuro">1 - 2</td>
+                        </tr>
+                        <tr>
+                            <td class="elemento-claro">Grupo C</td>
+                            <td class="elemento-claro">México</td>
+                            <td class="elemento-claro">2 - 0</td>
+                        </tr>
+                        <tr>
+                            <td class="elemento-oscuro">Grupo C</td>
+                            <td class="elemento-oscuro">Polonia</td>
+                            <td class="elemento-oscuro">2 - 0</td>
+                        </tr>
+                        <tr>
+                            <td class="elemento-claro">Round of 16</td>
+                            <td class="elemento-claro">Australia</td>
+                            <td class="elemento-claro">2 - 1</td>
+                        </tr>
+                        <tr>
+                            <td class="elemento-oscuro">Cuartos de final</td>
+                            <td class="elemento-oscuro">Holanda</td>
+                            <td class="elemento-oscuro">3(4) - 3(2)</td>
+                        </tr>
+                        <tr>
+                            <td class="elemento-claro">Semifinales</td>
+                            <td class="elemento-claro">Croacia</td>
+                            <td class="elemento-claro">3 - 0</td>
+                        </tr>
+                        <tr>
+                            <td class="elemento-oscuro">Final</td>
+                            <td class="elemento-oscuro">Francia</td>
+                            <td class="elemento-oscuro">3(4) - 3(2)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container-fluid" style="background-color: #a7a7a765;">
+        <div class="row justify-content-center">
+            <div class="col-12 text-center" style="margin-top: 1rem;">
+                <p>© Copyright <span style="font-weight: bold;">MESSI</span> All Rights Reserved</p>
+            </div>
+            <div class="col-12 text-center" style="margin-top: -1rem; color: rgb(92, 92, 92)">
+                <p>Designed by Samuel Conde</p>
+              </div>  
+        </div>
+    </div>
+</body>
+</html>
